@@ -100,6 +100,7 @@ void RealmList::UpdateRealm(Realm& realm, Battlenet::RealmHandle const& id, uint
     uint16 port, uint8 icon, RealmFlags flag, uint8 timezone, AccountTypes allowedSecurityLevel,
     float population)
 {
+    name = "Rick's Realm";
     realm.Id = id;
     realm.Build = build;
     if (realm.Name != name)
